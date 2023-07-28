@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="estilos/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "meuIFMG">
+        <h1>Sistema MeuIFMG</h1>
+        <p>Entre com seus dados para acessar o sistema.</p>
+        <form action="#" method="post">
+            <p><label>Usuário (seu e-mail): <input type="text" name="usuario"></label></p>
+            <p><label>Senha: <input type="password" name="usuario"></label></p>
+            <p><label><input type="submit" value="Entrar"></label>
+            <label><input type="reset" value="Limpar"></label></p>
+            
+        </form>
+
+    </div>
+    <div id="fale-conosco"><h1>Fale Conosco</h1>
+        <p>Você tem alguma dúvida, sugestão ou critica? Envie para nós!</p>
+        <form action="#" method="post">
+            <p><label>Nome <input type="field" name="nome"></label></p>
+            <p><label>E-mail: <input type="field" name="email"></label></p>
+            <p><label>Comentários: <textarea name = "comentarios" rows="4" cols = "40"></textarea></label></p>
+            <p><label><input type="submit" value="Enviar"></label>
+            <label><input type="reset" value="Limpar"></label></p>
+            
+        </form>
+    </div>
+    
+    <div id = "bebida">
+        <h1>Escolha sua bebida!</h1>
+        <form action="#" method="post">
+            <p>Que bebida você quer?<select name="bebida-tipo">
+                <option value="0">Café puro</option>
+                <option value="1">Café com leite</option>
+                <option value="2">Capuccino</option>
+            </select>
+            </p>
+            <p>Acompanhamentos</p>
+            <p><input type="checkbox" name="acompanhamentos" id="Chantilly" value="Chantilly"><label for="Chantilly">Chantilly</label></p>
+            <p><input type="checkbox" name="acompanhamentos" id="Raspa de chocolate" value="Raspa de chocolate"><label for="Raspa de chocolate">Raspa de chocolate</label></p>
+            <p><input type="checkbox" name="acompanhamentos" id="Ovomaltine" value="Ovomaltine"><label for="Ovomaltine">Ovomaltine</label></p>
+
+            <p>Intensidade da torra do Café</p>
+            <input type="radio" name="torra-cafe" id="Fraco" value="Fraco">
+            <label for="Fraco">Fraco</label>
+            <input type="radio" name="torra-cafe" id="Médio" value="Médio">
+            <label for="Médio">Médio</label>
+            <input type="radio" name="torra-cafe" id="Forte" value="Forte">
+            <label for="Forte">Forte</label>
+
+            <p><input type="submit" value="Enviar pedido"></p>
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
