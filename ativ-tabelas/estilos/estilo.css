@@ -1,0 +1,38 @@
+table#tabela-nutricional{
+    color: #1a5b9e;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px 25px 0 0;
+    background-color: #0163aa;
+    border-style: hidden;
+    
+}
+
+table#tabela-nutricional tr{
+    background-color: #f8eee5;
+    
+    
+}
+
+
+table#tabela-nutricional tr:last-child td:last-child{
+    border-bottom-right-radius: 25px;
+    
+}
+
+table#tabela-nutricional tr:last-child th{
+    border-bottom-left-radius: 25px;
+}
+
+table#tabela-nutricional tr:first-child th:last-child{
+    border-radius: 25px 25px 0 0;
+}
+
+table#tabela-nutricional caption{
+    
+    caption-side:bottom;
+    color: white;
+    background-color: #0163aa;
+    border-radius: 0 0 25px 25px;
+    
+}
